@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>	
+		<style>
+		body{
+			background-color: orange;		
+		}
+		#picture{
+    height: 432px;
+    weight: 200px;
+    background: -webkit-linear-gradient(0deg, blue , black , black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(0deg, blue , black , black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(0deg, blue , black , black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(0deg, blue , black , black ); /* Standard syntax (must be last) */
+		}
+		#pyramid1{
+			border-bottom: 140px solid black;
+			border-left: 140px solid transparent;
+			border-right: 140px solid transparent;
+			position: absolute;
+			left: 550px;
+			top: 300px;		
+		}
+		#pyramidShadow1{
+			border-bottom: 140px solid rgba(150,150, 150,1);
+			border-left: 140px solid transparent;
+			border-right: 40px solid transparent;
+			position: absolute;
+			left: 550px;
+			top: 300px;
+		}
+
+		#pyramid2{
+			border-bottom: 90px solid black;
+			border-left: 90px solid transparent;
+			border-right: 90px solid transparent;
+			position: absolute;
+			left: 470px;
+			top: 350px;
+			filter: drop-shadow(310px 0 0 rgba(0,0, 0,1));
+			filter: -moz-drop-shadow(310px 0 0 rgba(0,0, 0,1));
+			filter: -webkit-drop-shadow(310px 0 0 rgba(0,0, 0,1));
+
+		}
+		#pyramidShadow2{
+			border-bottom: 90px solid rgba(150,150, 150,1);
+			border-left: 90px solid transparent;
+			border-right: 40px solid transparent;
+			position: absolute;
+			left: 470px;
+			top: 350px;		
+			filter: drop-shadow(310px 0 0 rgba(150,150, 150,1));
+			filter: -moz-drop-shadow(310px 0 0 rgba(150,150, 150,1));
+			filter: -webkit-drop-shadow(310px 0 0 rgba(150,150, 150,1));
+
+		}
+		#moon { width: 80px; height: 80px; border-radius: 50%; box-shadow: 15px 15px 0 0 grey; }
+		</style>
+	</head>
+	
+	<body>
+	<div id="picture">
+	<div id="pyramid1"></div>
+	<div id="pyramidShadow1"></div>
+	<div id="pyramid2"></div>
+	<div id="pyramidShadow2"></div>
+	<div id="moon"></div>
+	</div>
+		
+	</body>
+</html>
