@@ -6,6 +6,40 @@
 		body{
 			background-color: orange;		
 		}
+		.star{
+			width: 2px;
+			height: 2px;
+			background: white;
+			position: absolute;
+		}
+		#star1{
+			top: 30px;
+			left: 60px;		
+		}
+		#star2{
+			top: 130px;
+			left: 70px;		
+		}
+		#star3{
+			top: 60px;
+			left: 160px;		
+		}
+		#star4{
+			top: 30px;
+			left: 60px;		
+		}
+		#star5{
+			top: 30px;
+			left: 60px;		
+		}
+		#star6{
+			top: 30px;
+			left: 60px;		
+		}
+		#star7{
+			top: 30px;
+			left: 60px;		
+		}
 		#picture{
     height: 432px;
     weight: 200px;
@@ -55,11 +89,18 @@
 			filter: -webkit-drop-shadow(310px 0 0 rgba(150,150, 150,1));
 
 		}
-		#moon { width: 80px; height: 80px; border-radius: 50%; box-shadow: 15px 15px 0 0 grey; }
+		#moon { width: 80px; height: 80px; border-radius: 50%; box-shadow: 15px 15px 0 0 white; }
 		</style>
 	</head>
 	
 	<body>
+	<div id="star1" class="star"></div>
+	<div id="star2" class="star"></div>
+	<div id="star3" class="star"></div>
+	<div id="star4" class="star"></div>
+	<div id="star5" class="star"></div>
+	<div id="star6" class="star"></div>
+	<div id="star7" class="star"></div>
 	<div id="picture">
 	<div id="pyramid1"></div>
 	<div id="pyramidShadow1"></div>
