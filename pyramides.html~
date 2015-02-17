@@ -25,20 +25,20 @@
 			left: 160px;		
 		}
 		#star4{
-			top: 30px;
-			left: 60px;		
+			top: 90px;
+			left: 110px;		
 		}
 		#star5{
-			top: 30px;
-			left: 60px;		
+			top: 120px;
+			left: 90px;		
 		}
 		#star6{
-			top: 30px;
-			left: 60px;		
+			top: 150px;
+			left: 200px;		
 		}
 		#star7{
-			top: 30px;
-			left: 60px;		
+			top: 230px;
+			left: 90px;		
 		}
 		#picture{
     height: 432px;
